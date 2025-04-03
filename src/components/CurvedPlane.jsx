@@ -6,7 +6,7 @@ export default function CurvedPlane() {
 
   useFrame(() => {
     if (meshRef.current) {
-      meshRef.current.rotation.y += 0.01; // प्लेन को घुमाने का इफ़ेक्ट
+      meshRef.current.rotation.y += 0.01; 
     }
   });
 
